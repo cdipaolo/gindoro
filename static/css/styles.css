@@ -23,8 +23,14 @@ header.header {
 .title {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
-    text-decoration: none;
-    color: inherit;
+}
+
+.post-header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    width: 100%;
+    border-bottom: 1px solid #ededed;
 }
 
 img {
@@ -33,6 +39,27 @@ img {
     left: 0;
     right: 0;
     margin: 0 auto;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    background-color: #FC4747;
+    color: #fff;
+}
+
+footer {
+    margin-top: 10px;
+    padding-top: 10px;
+
+    width: 100%;
+    border-top: 1px solid #ededed;
 }
 
 pre {

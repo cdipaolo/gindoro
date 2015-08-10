@@ -2,15 +2,13 @@
 {{ partial "header.html" . }}
 
 <section id="main">
-    <header>
+    <header class="post-header">
       <p class="post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p>
       <p class="post-meta">{{ .Date.Format "jan 2 2006" }} - {{ .ReadingTime }} min </p>
     </header>
-    <div>
-        <article itemprop="articleBody" id="content">
-           {{ .Content }}
-        </article>
-    </div>
+    <article itemprop="articleBody" id="content">
+       {{ .Content }}
+    </article>
 </section>
 
 {{ partial "footer.html" . }}
