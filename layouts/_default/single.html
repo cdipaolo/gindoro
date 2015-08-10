@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+{{ partial "subheader.html" . }}
+
+<section id="main">
+    <header>
+      <p class="post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></p>
+      <p class="post-meta">{{ .Date.Format "jan 2 2006" }} - {{ .ReadingTime }} min </p>
+    </header>
+    <div>
+        <article itemprop="articleBody" id="content">
+           {{ .Content }}
+        </article>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}
