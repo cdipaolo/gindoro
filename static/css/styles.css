@@ -110,6 +110,17 @@ blockquote {
     color: #6e6e6e;
 }
 
+/* hr/bar styling */
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    border: 0;
+    height: 0;
+    border-top: 1px solid #000;
+}
+
 /* table styling */
 
 table {
