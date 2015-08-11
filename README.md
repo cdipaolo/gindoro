@@ -1,14 +1,16 @@
 #### gindoro
 ##### a minimalistic Hugo blogging theme in ~36K
 
+[example site](dipaolo.conner.sh)
+
 only two pages – index and post
 
 no syntax highlighting (but code blocks do look nice regardless!)
 
 LaTeX support built in (using KaTeX via CDN for fast rendering)
 
-![screenshot](gindoro-screenshot.png)
 ![front page screenshot](gindoro-index-screenshot.png)
+![screenshot](gindoro-screenshot.png)
 
 ### installation
 
