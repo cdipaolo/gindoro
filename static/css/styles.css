@@ -54,12 +54,14 @@ a:hover {
     color: #fff;
 }
 
-footer {
+footer.bottom-footer {
     margin-top: 10px;
     padding-top: 10px;
 
     width: 100%;
     border-top: 1px solid #ededed;
+
+    font-size: 10px;
 }
 
 pre {
