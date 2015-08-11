@@ -33,6 +33,22 @@ header.header {
     border-bottom: 1px solid #ededed;
 }
 
+.post-summary-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    width: 100%;
+    border-top: 1px solid #ededed;
+}
+
+.post-title {
+    font-size: 16px;
+}
+
+.post-meta {
+    font-size: 11px;
+}
+
 img {
     width: calc(100% + 40px);
 
@@ -81,4 +97,5 @@ html{
 }
 body {
     min-height: 100%;
+    font-size: 14px;
 }

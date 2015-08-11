@@ -1,12 +1,12 @@
 <footer class="bottom-footer">
   <div class="copyright">
     <p>
-    {{ if isset .Site.Params "author" }}&copy; {{ .Site.Params.author }}.{{end}}
+    {{ if isset .Site.Params "Author" }}&copy; {{ .Site.Params.Author }}.{{end}}
     <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution">Some rights reserved</a>; 
     please attribute properly and link back.
     <a href="/archive">archive.</a>
-    {{ if isset .Site.Params "email" }}<a href="mailto:{{ .Site.Params.email }}">contact.</a>{{end}}
-    {{ if isset .Site.Params "githubUser" }}<a href="https://github.com/{{ .Site.Params.githubUser }}">contact.</a>{{end}}
+    {{ if isset .Site.Params "Email" }}<a href="mailto:{{ .Site.Params.Email }}">contact.</a>{{end}}
+    {{ if isset .Site.Params "GithubUser" }}<a href="https://github.com/{{ .Site.Params.GithubUser }}">github.</a>{{end}}
     </p>
   </div>
 </footer>
