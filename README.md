@@ -1,5 +1,5 @@
 #### gindoro
-##### a minimalistic Hugo blogging theme in ~6K
+##### a minimalistic Hugo blogging theme in < 6K
 
 [example site](http://dipaolo.conner.sh)
 
