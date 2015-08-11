@@ -1,7 +1,7 @@
 #### gindoro
 ##### a minimalistic Hugo blogging theme in ~36K
 
-[example site](dipaolo.conner.sh)
+[example site](http://dipaolo.conner.sh)
 
 only two pages – index and post
 
