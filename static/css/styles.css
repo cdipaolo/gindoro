@@ -74,6 +74,16 @@ a:hover {
     color: #fff;
 }
 
+ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+ol {
+    margin-left: 20px;
+    list-style-type: hiragana;
+}
+
 footer.bottom-footer {
     margin-top: 15px;
     padding-top: 0px;
