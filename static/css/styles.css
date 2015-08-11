@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 35em;
 
-    height: 100%;
+    min-height: 100%;
 
     left: 0;
     right: 0;
@@ -34,11 +34,9 @@ header.header {
 }
 
 img {
-    max-width: 100%;
+    width: calc(100% + 40px);
 
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    margin-left: -20px;
 
     margin-bottom: 10px;
     margin-top: 10px;
@@ -77,11 +75,10 @@ pre {
 
 * { padding: 0; margin: 0; }
 
-html, body {
-    height: 100%;
-}
-
-html {
+html{
     height: 100%;
     background-color: #ededed;
+}
+body {
+    min-height: 100%;
 }
