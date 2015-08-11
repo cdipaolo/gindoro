@@ -1,3 +1,4 @@
 <header class="header">
     <a href="/" class="title">{{ .Site.Title }}</a>
+    {{ if isset .Site.Params "description" }}<p>{{ .Site.Params.description }}</p>{{ end }}
 </header>

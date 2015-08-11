@@ -1,14 +1,13 @@
 <footer class="bottom-footer">
   <div class="copyright">
     <p>
-    &copy; 2015 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">Conner DiPaolo.</span></span>
+    {{ if isset .Site.Params "author" }}&copy; {{ .Site.Params.author }}.{{end}}
     <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution">Some rights reserved</a>; 
-    please attribute properly and link back. <br>
+    please attribute properly and link back.
+    <a href="/archive">archive.</a>
+    {{ if isset .Site.Params "email" }}<a href="mailto:{{ .Site.Params.email }}">contact.</a>{{end}}
+    {{ if isset .Site.Params "githubUser" }}<a href="https://github.com/{{ .Site.Params.githubUser }}">contact.</a>{{end}}
     </p>
-  </div>
-  <div class="archive">
-      <a href="/archive"></a>
   </div>
 </footer>
 
