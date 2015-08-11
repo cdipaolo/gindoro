@@ -1,21 +1,15 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/spf13/hugoThemes#themetoml for an example
 
-name = "Gindoro"
+name = "gindoro"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://siteforthistheme.com/"
-tags = ["", ""]
-features = ["", ""]
+licenselink = "https://github.com/cdipaolo/gindoro/blob/master/LICENSE.md"
+description = "minimalistic and _extremely_ lightweight hugo theme"
+homepage = "http://dipaolo.conner.sh/"
+tags = ["minimal", "hugo", "lightweight", "low-latency"]
+features = ["very lightweight", "renders really, really quickly", "super minimal"]
 min_version = 0.13
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Conner DiPaolo"
+  homepage = "http://dipaolo.conner.sh"
